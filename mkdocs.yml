@@ -1,39 +1,112 @@
 site_name: CyberShield
-site_description: Manual de Defensa Digital y Ciberseguridad Básica
+site_description: Manual Profesional de Defensa Digital y Ciberseguridad
 site_author: Estudiante de Ingeniería
-site_url: https://tousuario.github.io/Proyecto-Jose/
+site_url: https://AlejandroAlvarezRomero.github.io/Proyecto-Jose/
 
-# Configuración del Tema Material
+# Configuración del Tema Material - MEJORADO
 theme:
   name: material
   language: es
+  logo: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/logo.png
+  favicon: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/favicon.ico
+  
   palette:
-    # Modo Oscuro (Ideal para temática Ciberseguridad)
+    # Modo Oscuro Profesional
     - scheme: slate
-      primary: black
+      primary: indigo
       accent: cyan
-  features:
-    - navigation.tabs        # Menú superior tipo pestañas
-    - navigation.sections    # Secciones agrupadas
-    - navigation.expand      # Expansión automática
-    - search.highlight       # Resaltar búsqueda
-    - content.code.copy      # Botón de copiar en bloques de código
+      toggle:
+        icon: material/weather-night
+        name: Modo Oscuro
+    
+    # Modo Claro Profesional
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Modo Claro
 
-# Extensiones Markdown (AQUÍ ESTÁ EL PUNTO EXTRA)
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  features:
+    # Navegación Mejorada
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    
+    # Búsqueda y Contenido
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    
+    # Interfaz
+    - toc.follow
+    - content.action.edit
+    - content.action.view
+
+# Extensiones Markdown PROFESIONALES
 markdown_extensions:
-  - admonition               # Para cajas de advertencia/nota
-  - pymdownx.details         # Para bloques desplegables (Acordeón)
-  - pymdownx.superfences     # Para bloques de código avanzados
-  - pymdownx.highlight:      # Resaltado de sintaxis de código
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.tasklist:
       custom_checkbox: true
-  - attr_list                # Para añadir atributos a imágenes/elementos
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      block_tag: 'div'
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search:
+      lang: es
+  - minify:
+      minify_html: true
+
+# Configuración Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AlejandroAlvarezRomero/Proyecto-Jose
+  
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+extra_css:
+  - css/extra.css
 
 # Estructura de Navegación
 nav:
-  - Inicio: index.md
-  - Introducción: introduccion.md
-  - Instalación: instalacion.md
-  - Uso de Herramientas: uso.md
-  - Conclusiones: conclusiones.md
+  - 🏠 Inicio: index.md
+  - 📖 Introducción: introduccion.md
+  - ⚙️ Instalación: instalacion.md
+  - 🔧 Uso de Herramientas: uso.md
+  - 🎯 Conclusiones: conclusiones.md
