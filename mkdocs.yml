@@ -87,21 +87,12 @@ markdown_extensions:
 plugins:
   - search:
       lang: es
-  - minify:
-      minify_html: true
 
 # Configuración Extra
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/AlejandroAlvarezRomero/Proyecto-Jose
-  
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX
-
-extra_css:
-  - css/extra.css
 
 # Estructura de Navegación
 nav:
