@@ -1,17 +1,42 @@
-# Welcome to MkDocs
+# 🛡️ Bienvenido a CyberShield
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Manual Completo de Defensa Digital y Ciberseguridad Básica**
 
-## Commands
+Bienvenido a la documentación oficial de **CyberShield**. Este manual educativo proporciona una guía exhaustiva sobre los fundamentos de la ciberseguridad, configuración segura de sistemas y protección contra amenazas contemporáneas.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+![Banner de Ciberseguridad](assets/banner.png)
 
-## Project layout
+## 🎯 Propósito del Proyecto
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Esta documentación ha sido creada como recurso educativo para estudiantes y profesionales que desean comprender los principios fundamentales de la defensa digital. Cubre desde conceptos básicos hasta herramientas prácticas de seguridad.
+
+## 📚 Contenido Principal
+
+En esta documentación encontrarás:
+
+- **Fundamentos teóricos** de la seguridad informática y ciberseguridad
+- **Guía de instalación** de herramientas de seguridad especializadas
+- **Procedimientos prácticos** para auditoría y pruebas de penetración éticas
+- **Mejores prácticas** en defensa de infraestructuras
+- **Recursos adicionales** y referencias bibliográficas
+
+## ⭐ Características Principales
+
+| Aspecto | Descripción |
+|--------|-------------|
+| **Lenguaje** | Español (ES) |
+| **Público Objetivo** | Estudiantes de ciberseguridad y profesionales IT |
+| **Nivel** | Principiante a Intermedio |
+| **Actualizaciones** | Mensual |
+
+## 🚀 Comenzar
+
+Para comenzar tu viaje en ciberseguridad, te recomendamos:
+
+1. Leer la [Introducción](introduccion.md) para entender los conceptos clave
+2. Seguir la [Guía de Instalación](instalacion.md) para configurar tu entorno
+3. Explorar la [Sección de Uso](uso.md) con ejercicios prácticos
+
+> "La seguridad no es un destino, es un viaje continuo de aprendizaje." — *Filosofía de CyberShield*
+
+[📖 Leer Introducción](introduccion.md){ .md-button .md-button--primary } [⚙️ Ver Instalación](instalacion.md){ .md-button }

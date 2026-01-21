@@ -1,3 +1,39 @@
-site_name: Proyecto Jose
+site_name: CyberShield
+site_description: Manual de Defensa Digital y Ciberseguridad Básica
+site_author: Estudiante de Ingeniería
+site_url: https://tousuario.github.io/Proyecto-Jose/
+
+# Configuración del Tema Material
 theme:
   name: material
+  language: es
+  palette:
+    # Modo Oscuro (Ideal para temática Ciberseguridad)
+    - scheme: slate
+      primary: black
+      accent: cyan
+  features:
+    - navigation.tabs        # Menú superior tipo pestañas
+    - navigation.sections    # Secciones agrupadas
+    - navigation.expand      # Expansión automática
+    - search.highlight       # Resaltar búsqueda
+    - content.code.copy      # Botón de copiar en bloques de código
+
+# Extensiones Markdown (AQUÍ ESTÁ EL PUNTO EXTRA)
+markdown_extensions:
+  - admonition               # Para cajas de advertencia/nota
+  - pymdownx.details         # Para bloques desplegables (Acordeón)
+  - pymdownx.superfences     # Para bloques de código avanzados
+  - pymdownx.highlight:      # Resaltado de sintaxis de código
+      anchor_linenums: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list                # Para añadir atributos a imágenes/elementos
+
+# Estructura de Navegación
+nav:
+  - Inicio: index.md
+  - Introducción: introduccion.md
+  - Instalación: instalacion.md
+  - Uso de Herramientas: uso.md
+  - Conclusiones: conclusiones.md
