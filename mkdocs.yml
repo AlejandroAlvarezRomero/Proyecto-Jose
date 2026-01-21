@@ -7,7 +7,6 @@ site_url: https://AlejandroAlvarezRomero.github.io/Proyecto-Jose/
 theme:
   name: material
   language: es
-  logo: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/logo.png
   favicon: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/assets/favicon.ico
   
   palette:
