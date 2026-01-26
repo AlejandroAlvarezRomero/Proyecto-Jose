@@ -38,7 +38,7 @@ El proyecto incluye **5 páginas principales**:
 
 ```bash
 # Clonar repositorio
-git clone https://github.com/TU_USUARIO/Proyecto-Jose.git
+git clone https://github.com/AlejandroAlvarezRomero/Proyecto-Jose.git
 cd Proyecto-Jose
 
 # Instalar dependencias
@@ -100,11 +100,9 @@ git push
 
 ## 🌐 Despliegue en GitHub Pages
 
-Ver **GUIA_DESPLIEGUE.md** para instrucciones completas paso a paso.
-
 El sitio será accesible en:
 ```
-https://TU_USUARIO.github.io/Proyecto-Jose/
+https://AlejandroAlvarezRomero.github.io/Proyecto-Jose/
 ```
 
 ## 📚 Contenido Incluido
@@ -174,15 +172,10 @@ https://TU_USUARIO.github.io/Proyecto-Jose/
 | Despliegue en GitHub Pages | ✅ Excelente |
 | **Extras opcionales** | ✅ **+1 punto** |
 
-## 📖 Documentación
-
-- [GUIA_DESPLIEGUE.md](GUIA_DESPLIEGUE.md) - Instrucciones completas de despliegue
-- [DOCUMENTO_ENTREGA.md](DOCUMENTO_ENTREGA.md) - Explicación detallada del proyecto
-
 ## 🔗 Enlaces
 
-- 📚 [Sitio Publicado](https://TU_USUARIO.github.io/Proyecto-Jose/) *(Actualiza con tu URL)*
-- 📁 [Repositorio en GitHub](https://github.com/TU_USUARIO/Proyecto-Jose) *(Actualiza con tu URL)*
+- 📚 [Sitio Publicado](https://AlejandroAlvarezRomero.github.io/Proyecto-Jose/) 
+- 📁 [Repositorio en GitHub](https://github.com/AlejandroAlvarezRomero/Proyecto-Jose) 
 - 📖 [MkDocs Documentation](https://www.mkdocs.org/)
 - 🎨 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
@@ -192,28 +185,8 @@ Este proyecto es de código abierto y está disponible bajo licencia MIT.
 
 ## 👥 Autor
 
-**Estudiante de Ingeniería**  
+**Grado Superior de Administracion de Sistemas Informaticos en Red**  
 Enero, 2026
-
----
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-
-1. Fork el repositorio
-2. Crea una rama para tu feature
-3. Commit tus cambios
-4. Push a la rama
-5. Abre un Pull Request
-
-## ❓ Soporte
-
-Si tienes preguntas o encuentras problemas:
-
-1. Revisa la [Guía de Despliegue](GUIA_DESPLIEGUE.md)
-2. Consulta la [Documentación de Entrega](DOCUMENTO_ENTREGA.md)
-3. Abre un Issue en GitHub
 
 ---
 
